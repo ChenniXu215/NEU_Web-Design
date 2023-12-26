@@ -1,0 +1,61 @@
+.work_main {
+    padding: 1rem;
+}
+
+.about_us {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.apply {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    background-color: var(--panel-bg-color);
+}
+
+.role {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.benefit {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+@media (min-width: 44rem) {
+    .about_us {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .apply {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .role {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .benefit {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+}
+
+
+
+
+

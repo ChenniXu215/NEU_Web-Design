@@ -1,0 +1,23 @@
+:root {
+  margin: 0;
+  padding: 0;
+
+ 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--header-bg-color);
+}
+
+main {
+  background-color: var(--page-bg-color);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+}

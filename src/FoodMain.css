@@ -1,0 +1,43 @@
+.food__main {
+    padding: 1rem;
+}
+
+.food__select {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.food__importance {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.food__choose {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    background-color: var(--panel-bg-color);
+}
+
+@media (min-width: 44rem) {
+    .food__select {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .food__importance {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .food__choose {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+}

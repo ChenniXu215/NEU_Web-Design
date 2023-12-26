@@ -1,0 +1,30 @@
+:root {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+
+  --primary-color: burlywood;
+  --primary-contrast-color: black;
+  --secondary-color: #eee;
+  --secondary-contrast-color: lightcoral;
+  --third-contrast-color: #52FF52;
+  --accent-contrast-color: white;
+  --neutral-color: papayawhip;
+  --neutral-contrast-color: blue;
+
+  --header-bg-color: var(--primary-color);
+  --page-bg-color: var(--neutral-color);
+  --card-bg-color: var(--secondary-color);
+  --card-border-color: var(--primary-contrast-color);
+  --panel-bg-color: var(--secondary-color);
+  --panel-border-color: var(--primary-contrast-color);
+  --footer-bg-color: var(--primary-color);
+  --success-button-color: var(--third-contrast-color);
+  --cancel-button-color: var(--secondary-contrast-color);
+  --link-color: var(--neutral-contrast-color);
+}
+
+
+body {
+  margin: 0;
+}

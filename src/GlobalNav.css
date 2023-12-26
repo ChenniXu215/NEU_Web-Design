@@ -1,0 +1,48 @@
+.global-nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.global-nav__list--hidden {
+    display: none;
+}
+
+.global-nav__link {
+    display: inline-block;
+}
+
+.global_btn {
+    background: inherit;
+
+    font-size: 2rem;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+
+@media (min-width: 44rem) {
+    .global-nav__list--hidden {
+        display: flex;
+    }
+
+    .global-nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .global_btn {
+        display: none;
+    }
+
+
+}

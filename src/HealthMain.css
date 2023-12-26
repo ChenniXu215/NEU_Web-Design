@@ -1,0 +1,43 @@
+.health__main {
+    padding: 1rem;
+}
+
+.cat__pill {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.bone {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    border-bottom: none;
+    background-color: var(--panel-bg-color);
+}
+
+.first__aid {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    border: solid var(--panel-border-color);
+    background-color: var(--panel-bg-color);
+}
+
+@media (min-width: 44rem) {
+    .cat__pill {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .bone {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+    
+    .first__aid {
+        margin: 1rem;
+        border: solid var(--panel-border-color);
+    }
+}

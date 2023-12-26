@@ -1,0 +1,408 @@
+h2 {
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.introduction {
+    margin: 1rem;
+
+    border-bottom: solid var(--card-border-color);
+    border-width: 0.08rem;
+}
+
+form {
+    margin: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form_detail {
+    padding-bottom: 1rem;
+    border-bottom: solid var(--card-border-color);
+    border-width: 0.08rem;
+}
+
+.name {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tel {
+    padding-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    font-size: 0.75rem;
+    color: var(--secondary-contrast-color);
+}
+
+.raise_record {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping__street {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping__city {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping__state {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping__zip {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing__street {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing__city {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing__state {
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.billing__zip {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 1rem;
+    text-align: center;
+}
+
+.apply__button {
+    border-radius: 1rem;
+
+    background-color: var(--success-button-color);
+
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+@media (min-width: 44rem) {
+    .name {
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .name .label__require {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .input_name {
+        grid-column: 5 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .name .error {
+        grid-column: 5 / 13;
+        grid-row: 2 / 3;
+    }
+    
+    .email {
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .email .label__require {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .input_email {
+        grid-column: 5 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .email .error {
+        grid-column: 5 / 13;
+        grid-row: 2 / 3;
+    }
+    
+    .tel {
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .tel .label__require {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+
+    .input_tel {
+        grid-column: 5 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .tel .error {
+        grid-column: 5 / 13;
+        grid-row: 2 / 3;
+    }
+    
+    .raise_record {
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .record_label {
+        grid-column: 3 / 7;
+        grid-row: 1 / 2;
+    }
+
+    .record_option {
+        grid-column: 7 / 11;
+        grid-row: 1 / 2;
+    }
+    
+    .time {
+        padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .time_label {
+        grid-column: 3 / 8;
+        grid-row: 1 / 2;
+    }
+
+    .time_option {
+        grid-column: 8 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .ship_info {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .ship_question {
+        grid-column: 3 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .ship_remind {
+        grid-column: 3 / 11;
+        grid-row: 2 / 3;
+    }
+
+    .ship_title {
+        text-align: center;
+    }
+    
+    .shipping__street {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .shipping__street .street_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__street .street_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__city {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .shipping__city .city_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__city .city_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__state {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .shipping__state .state_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__state .state_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+    
+    .shipping__zip {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .shipping__zip .zip_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .shipping__zip .zip_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .same_address {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+    
+    .same_check {
+        grid-column: 3 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .bill_title {
+        text-align: center;
+    }
+
+    .billing__street {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .billing__street .street_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .billing__street .street_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .billing__city {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .billing__city .city_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .billing__city .city_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+
+    .billing__state {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .billing__state .state_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .billing__state .state_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+    
+    .billing__zip {
+        padding-bottom: 1rem;
+
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .billing__zip .zip_label {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .billing__zip .zip_input {
+        grid-column: 4 / 11;
+        grid-row: 1 / 2;
+    }
+    
+   
+}
